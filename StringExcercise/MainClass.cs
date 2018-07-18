@@ -11,16 +11,30 @@ namespace StringExcercise
     {
         public static void Main(string[] args)
         {
-            UserInput userInputObj = new UserInput();
-            CharFrequency charFreqObj = new CharFrequency();
-            WordFrequency wordFreqObj = new WordFrequency();
-            SortString sortStringObj = new SortString();
-            GenerateSubstring generateSubstringObj = new GenerateSubstring();
-            SubstringExist subStringExistObj = new SubstringExist();
-            FindSubstring findSubstringObj = new FindSubstring();
-            CheckCharacterCase checkCharacterCaseObj = new CheckCharacterCase();
-            //checkCharacterCaseObj.checkCase();
-            findSubstringObj.FindSubstringExist();
+            LINQExamples linqex = new LINQExamples();
+            //linqex.stringFind();
+            linqex.IntResult();
+            //linqex.distinctWords();
+            //linqex.duplicateWords();
+            //linqex.StudentCollection();
+            //linqex.StringIntoWords();
+            //StringOps sop = new StringOps();
+            //sop.AddSpaceEachChar();
+            //sop.ReverseString();
+            //sop.NumberOfWords();
+            //sop.CharFrequency();
+           // sop.charFrequencyNew();
+            Console.ReadLine();
+            //UserInput userInputObj = new UserInput();
+            //CharFrequency charFreqObj = new CharFrequency();
+            //WordFrequency wordFreqObj = new WordFrequency();
+            //SortString sortStringObj = new SortString();
+            //GenerateSubstring generateSubstringObj = new GenerateSubstring();
+            //SubstringExist subStringExistObj = new SubstringExist();
+            //FindSubstring findSubstringObj = new FindSubstring();
+            //CheckCharacterCase checkCharacterCaseObj = new CheckCharacterCase();
+            ////checkCharacterCaseObj.checkCase();
+            //findSubstringObj.FindSubstringExist();
             //subStringExistObj.fundSubstringExist();
             //ConvertStringCase convertStringCaseObj = new ConvertStringCase();
             //convertStringCaseObj.ConvertCase();
